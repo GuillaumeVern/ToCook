@@ -83,7 +83,7 @@ public class Configuration {
     }
 
     public String getSgbdDb() {
-        return "tocook_bdd?useSSL=false";
+        return "tocook_tom?useSSL=false";
     }
 
     public String getSgbdUser() {
