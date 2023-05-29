@@ -130,7 +130,7 @@ public class MainMenu extends javax.swing.JFrame {
             }
         });
         getContentPane().add(info);
-        info.setBounds(20, 390, 101, 26);
+        info.setBounds(20, 390, 101, 27);
 
         abandon.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
         abandon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ressources/escape_20.png"))); // NOI18N
@@ -142,7 +142,7 @@ public class MainMenu extends javax.swing.JFrame {
             }
         });
         getContentPane().add(abandon);
-        abandon.setBounds(542, 390, 123, 26);
+        abandon.setBounds(542, 390, 123, 27);
 
         jPanel1.setBackground(new java.awt.Color(255, 199, 199));
         jPanel1.setForeground(new java.awt.Color(51, 51, 51));
