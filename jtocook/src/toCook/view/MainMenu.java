@@ -44,8 +44,8 @@ public class MainMenu extends javax.swing.JFrame {
         Entete.setBackground(new java.awt.Color(255,255,255,120));
         Entete.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         Entete.setForeground(new java.awt.Color(255, 0, 0));
-        Entete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ressources/toocoock.PNG"))); // NOI18N
         Entete.setText(" Menu général");
+        Entete.setToolTipText("");
         Entete.setIconTextGap(22);
         Entete.setOpaque(true);
         getContentPane().add(Entete);
@@ -54,7 +54,6 @@ public class MainMenu extends javax.swing.JFrame {
         parametrer.setFont(new java.awt.Font("Arial Black", 1, 12)); // NOI18N
         parametrer.setForeground(new java.awt.Color(51, 51, 51));
         parametrer.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        parametrer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ressources/gear_80.png"))); // NOI18N
         parametrer.setText("Paramétre");
         parametrer.setToolTipText("Paramétrer l'application");
         parametrer.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -71,7 +70,6 @@ public class MainMenu extends javax.swing.JFrame {
         Utilisateur.setFont(new java.awt.Font("Arial Black", 1, 12)); // NOI18N
         Utilisateur.setForeground(new java.awt.Color(51, 51, 51));
         Utilisateur.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Utilisateur.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ressources/user-secret_80.png"))); // NOI18N
         Utilisateur.setText("Utilisateur");
         Utilisateur.setToolTipText("Gestion des utilisateurs");
         Utilisateur.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -88,7 +86,6 @@ public class MainMenu extends javax.swing.JFrame {
         dashboard.setFont(new java.awt.Font("Arial Black", 1, 12)); // NOI18N
         dashboard.setForeground(new java.awt.Color(51, 51, 51));
         dashboard.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        dashboard.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ressources/progjour.png"))); // NOI18N
         dashboard.setText("ProgJournée");
         dashboard.setToolTipText("Programmation des journées");
         dashboard.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -106,7 +103,6 @@ public class MainMenu extends javax.swing.JFrame {
         quitte.setFont(new java.awt.Font("Arial Black", 1, 12)); // NOI18N
         quitte.setForeground(new java.awt.Color(51, 51, 51));
         quitte.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        quitte.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ressources/power-off_80.png"))); // NOI18N
         quitte.setText("Quitter");
         quitte.setToolTipText("Se déconnecter de l'application");
         quitte.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -121,7 +117,6 @@ public class MainMenu extends javax.swing.JFrame {
         quitte.setBounds(560, 110, 100, 100);
 
         info.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
-        info.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ressources/info-circle_20.png"))); // NOI18N
         info.setText("Au Sujet");
         info.setToolTipText("Sortir de la fenétre d'envoi");
         info.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -130,10 +125,9 @@ public class MainMenu extends javax.swing.JFrame {
             }
         });
         getContentPane().add(info);
-        info.setBounds(20, 390, 101, 26);
+        info.setBounds(20, 390, 81, 26);
 
         abandon.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
-        abandon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ressources/escape_20.png"))); // NOI18N
         abandon.setText("Abandonner");
         abandon.setToolTipText("Sortir de la fenétre d'envoi");
         abandon.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -142,7 +136,7 @@ public class MainMenu extends javax.swing.JFrame {
             }
         });
         getContentPane().add(abandon);
-        abandon.setBounds(542, 390, 123, 26);
+        abandon.setBounds(542, 390, 103, 26);
 
         jPanel1.setBackground(new java.awt.Color(255, 199, 199));
         jPanel1.setForeground(new java.awt.Color(51, 51, 51));

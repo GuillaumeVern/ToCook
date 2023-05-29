@@ -366,7 +366,7 @@
                           <Component id="combo_programme" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace pref="7" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -519,7 +519,7 @@
                       <Component id="origine_modif" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
                       <Component id="entree_origine" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="10" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>

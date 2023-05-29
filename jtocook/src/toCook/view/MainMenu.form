@@ -41,10 +41,8 @@
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="0" red="ff" type="rgb"/>
         </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/ressources/toocoock.PNG"/>
-        </Property>
         <Property name="text" type="java.lang.String" value=" Menu g&#xe9;n&#xe9;ral"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
         <Property name="iconTextGap" type="int" value="22"/>
         <Property name="opaque" type="boolean" value="true"/>
       </Properties>
@@ -63,9 +61,6 @@
           <Color blue="33" green="33" red="33" type="rgb"/>
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/ressources/gear_80.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Param&#xe9;tre"/>
         <Property name="toolTipText" type="java.lang.String" value="Param&#xe9;trer l&apos;application"/>
         <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -90,9 +85,6 @@
           <Color blue="33" green="33" red="33" type="rgb"/>
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/ressources/user-secret_80.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Utilisateur"/>
         <Property name="toolTipText" type="java.lang.String" value="Gestion des utilisateurs"/>
         <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -117,9 +109,6 @@
           <Color blue="33" green="33" red="33" type="rgb"/>
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/ressources/progjour.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="ProgJourn&#xe9;e"/>
         <Property name="toolTipText" type="java.lang.String" value="Programmation des journ&#xe9;es"/>
         <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -147,9 +136,6 @@
           <Color blue="33" green="33" red="33" type="rgb"/>
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/ressources/power-off_80.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Quitter"/>
         <Property name="toolTipText" type="java.lang.String" value="Se d&#xe9;connecter de l&apos;application"/>
         <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -170,9 +156,6 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Dialog" size="12" style="1"/>
         </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/ressources/info-circle_20.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Au Sujet"/>
         <Property name="toolTipText" type="java.lang.String" value="Sortir de la fen&#xe9;tre d&apos;envoi"/>
       </Properties>
@@ -189,9 +172,6 @@
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Dialog" size="12" style="1"/>
-        </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/ressources/escape_20.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Abandonner"/>
         <Property name="toolTipText" type="java.lang.String" value="Sortir de la fen&#xe9;tre d&apos;envoi"/>
